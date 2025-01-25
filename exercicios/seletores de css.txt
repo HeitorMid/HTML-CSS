@@ -1,0 +1,62 @@
+Seletores de CSS
+
+Os seletores determinam quais elementos HTML serão estilizados.
+
+Seletores Básicos:
+
+*: Seleciona todos os elementos.
+element: Seleciona todos os elementos de um tipo específico, como div, p, ou h1.
+#id: Seleciona um elemento com um ID específico, como #header.
+.class: Seleciona todos os elementos com uma classe específica, como .button.
+Seletores Combinados:
+
+element1, element2: Seleciona múltiplos elementos (ex.: h1, p).
+element1 element2: Seleciona elementos element2 dentro de element1 (ex.: div p).
+element1 > element2: Seleciona elementos element2 que são filhos diretos de element1.
+element1 + element2: Seleciona o elemento element2 imediatamente adjacente a element1.
+Pseudo-classes:
+
+:hover: Aplica estilo quando o usuário passa o mouse sobre o elemento.
+:nth-child(n): Seleciona o enésimo filho de um elemento.
+:focus: Aplica estilo ao elemento que está em foco.
+Pseudo-elementos:
+
+::before: Insere conteúdo antes do elemento.
+::after: Insere conteúdo depois do elemento.
+Propriedades Mais Comuns
+Texto e Fonte:
+
+color: Define a cor do texto.
+font-size: Define o tamanho da fonte.
+font-family: Define a família da fonte.
+text-align: Alinha o texto (ex.: center, left, right).
+line-height: Define o espaçamento entre linhas.
+Espaçamento:
+
+margin: Define a margem externa.
+padding: Define o preenchimento interno.
+Caixa e Bordas:
+
+width: Define a largura.
+height: Define a altura.
+border: Define a borda (largura, estilo e cor).
+box-shadow: Adiciona uma sombra à caixa.
+
+
+background-color: Define a cor de fundo.
+background-image: Define uma imagem de fundo.
+Flexbox e Grid:
+
+display: Define o modelo de exibição (ex.: block, inline, flex, grid).
+flex: Define o comportamento de itens em um container flexível.
+grid-template-columns: Define as colunas em um layout de grid.
+Posicionamento:
+
+position: Define o posicionamento (ex.: static, absolute, relative, fixed).
+top, right, bottom, left: Define a posição de um elemento.
+z-index: Define a ordem em camadas.
+Outras Propriedades:
+
+opacity: Define a opacidade de um elemento.
+transition: Adiciona animações suaves.
+cursor: Define o tipo de cursor ao passar sobre o elemento.

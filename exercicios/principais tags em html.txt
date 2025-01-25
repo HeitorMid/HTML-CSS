@@ -1,0 +1,133 @@
+aAS PRINCIPAIS TAGS EM HTML 
+
+Estrutura do Documento
+
+<html>: Define o documento como HTML.
+<head>: Contém metadados do documento.
+<body>: Contém o conteúdo visível da página.
+
+Metadados
+
+<title>: Define o título da página (aparece na aba do navegador).
+<meta>: Fornece informações sobre o documento, como charset (<meta charset="UTF-8">) e descrições.
+<link>: Vincula arquivos externos, como CSS.
+<style>: Insere estilos CSS diretamente no documento.
+<script>: Insere ou referencia scripts JavaScript.
+
+Estruturação de Conteúdo
+
+<header>: Define o cabeçalho da página ou seção.
+<nav>: Define uma barra de navegação.
+<section>: Representa uma seção de conteúdo.
+<article>: Define um conteúdo independente e de maior relevância.
+<aside>: Define conteúdos relacionados ou complementares.
+<footer>: Representa o rodapé da página ou seção.
+<main>: Define o conteúdo principal do documento.
+
+Texto
+
+<h1> a <h6>: Títulos, sendo <h1> o mais importante.
+<p>: Define um parágrafo.
+<br>: Quebra de linha.
+<hr>: Linha horizontal para separação.
+<span>: Usado para estilizar trechos de texto.
+<strong>: Marca texto como importante (negrito).
+<em>: Dá ênfase ao texto (itálico).
+<b> e <i>: Negrito e itálico (sem semântica).
+<blockquote>: Citação em bloco.
+<pre>: Exibe texto formatado (respeita espaços e quebras de linha).
+<sub> sobrescrito
+<sup> subescrito
+<del> texto excluido
+<ins> texto inserido
+<small> texto pequeno
+<code> codigo fonte
+<pre> pre formatação
+<q> citações simples
+<blockquote cite = "....."> citação completa 
+<abbr> abreviações 
+
+Listas
+
+<ul>: Lista não ordenada.
+<ol>: Lista ordenada.
+<li>: Um item de lista.
+<dl>: Lista de definição.
+<dt>: Título de definição.
+<dd>: Descrição.
+
+Links e Mídia
+
+<a>: Define links.
+target="_blank" rel="external": abre uma nova aba no navegador
+rel="next"
+rel="aprev: esses dois servem para navegar entra as paginas internas
+rel= nofollow: caso voce nao perpetue com aquele link 
+../: voltar para a pagina anterior
+<img>: Insere imagens.
+<link rel="icon" href="" type="imagem/x-icon"> para adcicionar um icone de favoritos
+
+<pictures> utiliza primeiro e depois essa que ta em baixo
+<source media="(max-width: 550px)" srcset="p.png" type="image/png"> faz uma imagem dinamica
+
+exemplo: <picture>
+        <source media="(max-width: 550px)" srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width: 1100px)" srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="paisagem-g">
+    </picture>
+
+<audio>: Insere áudio.
+<video>: Insere vídeos.
+<source>: Define fontes para <audio> e <video>.
+<iframe>: Insere conteúdos de outra página (como vídeos do YouTube).
+
+tipos de audio:
+mp3
+ogg
+wav
+
+exemplo de audio:
+ <audio preload="auto" autoplay controls>
+        <source src="boss-music.mp3" type="audio/mpeg">
+        <source src="boss-music.ogg" type="audio/ogg">
+        <source src="boss-music.wav" type="audio/wav">
+        <p> caso nao toque clique aqui para fazer o download do audio <a href="boss-music.mp3"> clique aqui</a></p>
+
+tipos de videos:
+mp4
+webm
+ogg
+m4v
+
+exemplo de video:
+<video width="500" poster="video.mp4" autoplay controls>
+        <source src="video.mp4" type="video/mp4">
+
+Formulários
+
+<form>: Cria um formulário.
+<input>: Define um campo de entrada.
+<textarea>: Campo para texto longo.
+<button>: Botão clicável.
+<select>: Cria um menu suspenso.
+<option>: Define opções dentro de um <select>.
+<label>: Rotula elementos de formulário.
+
+Tabelas
+
+<table>: Define uma tabela.
+<tr>: Define uma linha de tabela.
+<th>: Define uma célula de cabeçalho.
+<td>: Define uma célula de dados.
+<caption>: Legenda para a tabela.
+<thead>: Agrupa cabeçalhos.
+<tbody>: Agrupa o corpo da tabela.
+<tfoot>: Agrupa o rodapé da tabela.
+
+Outros Elementos Importantes
+
+<div>: Usado para agrupar blocos de conteúdo.
+<span>: Usado para estilizar partes do conteúdo inline.
+<script>: Insere ou referencia scripts.
+<canvas>: Usado para gráficos desenhados por scripts.
+<svg>: Gráficos vetoriais escaláveis.
